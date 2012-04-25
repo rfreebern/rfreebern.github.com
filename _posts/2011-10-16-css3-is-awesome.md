@@ -5,7 +5,8 @@ body_class: post
 layout: post
 ---
 
-<iframe src="http://jsfiddle.net/YkjGu/embedded/result" height="385" width="350"></iframe>
+<iframe src="http://jsfiddle.net/YkjGu/embedded/result" height="385" width="350">
+</iframe>
 
 (In response to [CSS is awesome][1].)
 
