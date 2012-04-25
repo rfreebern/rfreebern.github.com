@@ -3,10 +3,8 @@ published: true
 title: localStorage, browser sync, and the future
 body_class: post
 layout: post
+summary: Some thoughts about whether the data in a browser's localStorage should be synced to other devices, and how that syncing might be managed.
 ---
-
-
-
 
 HTML5 localStorage and IndexedDB are awesome. Firefox and Chrome's built-in browser syncing is awesome. However, right now, [neither Chrome][1] [nor Firefox][2] make any attempt to sync localStorage. The fact that this isn't a settled issue is understandable: it's explicitly supposed to be local data, which is understood to mean that it's not automatically getting sent somewhere remote, which is what sync does by definition.
 

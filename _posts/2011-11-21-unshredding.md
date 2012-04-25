@@ -3,10 +3,8 @@ published: true
 title: Unshredding
 body_class: post
 layout: post
+summary: I solved Instagram's "unshredding" challenge using JavaScript and the HTML5 &lt;canvas&gt; element.
 ---
-
-
-
 
 A week ago, [the Instagram engineers posted a challenge on their blog][1]: given an image "shredded" into a set of equal-width strips, write an image processing algorithm to "unshred" the image and put the original back together. When [@nigelbabu mentioned this][2], I was intrigued, and decided that it was a good excuse to learn some new stuff about image processing and using the HTML5 canvas element.
 

@@ -3,10 +3,8 @@ published: true
 title: Wherefore HTML manifest?
 body_class: post
 layout: post
+summary: Putting the HTML5 offline web app manifest in an attribute of the &lt;html&gt; tag didn't make sense to me, so I asked the guy who wrote the spec.
 ---
-
-
-
 
 The first time I read [details about offline web apps and the cache manifest file](http://diveintohtml5.info/offline.html), one of my first thoughts was "why did they choose *that* syntax?"
 

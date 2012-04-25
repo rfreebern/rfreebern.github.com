@@ -9,11 +9,14 @@ body_class: default
             This is my weblog. I write about open source, the open web, my
             projects, and my life.
         </p>
-        <ul>
+        <dl>
             {% for post in site.posts %}
-            <li class="vevent">
+            <dt class="vevent">
                 <span class="post-date dtstart" title="{{ post.date | date: "%y-%m-%d" }}">{{ post.date | date: "%d %b %Y" }}</span>
                 <a class="summary" href="{{ post.url }}">{{ post.title }}</a>
-            </li>
+            </dt>
+            <dd>
+                {{ post.summary }}
+            </dd>
             {% endfor %}
-        </ul>
+        </dl>

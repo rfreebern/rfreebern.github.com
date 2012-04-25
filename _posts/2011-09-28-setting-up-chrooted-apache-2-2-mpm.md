@@ -3,10 +3,8 @@ published: true
 title: Setting up chrooted Apache 2.2 MPM
 body_class: post
 layout: post
+summary: I recently set up a new webserver that uses chroot for increased security. Here are a few small problems I had to solve to get it working.
 ---
-
-
-
 
 Some stumbling blocks I ran into while setting up a chrooted Apache 2.2.14 on Ubuntu 10.04.
 

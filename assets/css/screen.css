@@ -33,16 +33,34 @@ header p {
     margin: 0;
     line-height: 1.68;
 }
-ul {
+dl {
     list-style: none;
     padding: 0;
     width: 100%;
 }
-li.vevent {
+dt.vevent {
     font-size: 110%;
 }
 span.post-date {
+    position: absolute;
     color: #999;
+}
+a.summary, dd {
+    position: relative;
+    margin-left: 20%;
+}
+dd {
+    font-size: 90%;
+    margin-bottom: 1em;
+}
+p.tldr {
+    font-style: italic;
+    color: #666;
+    font-size: 90%;
+}
+p.tldr::before {
+    color: black;
+    content: "tl;dr ";
 }
 a {
     text-decoration: none;

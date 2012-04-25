@@ -3,10 +3,8 @@ published: true
 title: Making twirssi work for me
 body_class: post
 layout: post
+summary: I started using twirssi, an open-source twitter plugin for irssi, and contributed code to improve its usability.
 ---
-
-
-
 
 [Irssi][1] is my chat client of choice. Natively it handles IRC quite well, easily maintaining connections to multiple networks and keeping track when people are looking for me. It also has [many useful scripts and plugins][2] that make it work in other ways, such has handling [XMPP][3] for me, [acting as a proxy for a GUI IRC client][4] (if I desire), and more. Last week, while experimenting with running [TTYtter][5] inside an irssi window (which worked fine but was less than optimal for various reasons), I came across [twirssi][6], a Twitter client written as an irssi plugin.
 

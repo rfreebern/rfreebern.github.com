@@ -3,10 +3,8 @@ published: true
 title: A chance to win
 body_class: post
 layout: post
+summary: I refuse to exploit my social connections to further your company's marketing agenda.
 ---
-
-
-
 
 I will never retweet your message for a chance to win, because I value my friends as human beings, not tools I can use to gain something for myself. They value me because I try to say thoughtful and interesting things, and because I'm not just another route for unwanted advertising to enter their lives.
 

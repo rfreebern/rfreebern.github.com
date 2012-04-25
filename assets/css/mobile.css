@@ -51,6 +51,15 @@ li.vevent {
 span.post-date {
     color: #999;
 }
+p.tldr {
+    font-style: italic;
+    font-size: 90%;
+    color: #666;
+}
+p.tldr::before {
+    content: "tl;dr ";
+    color: black;
+}
 a {
     text-decoration: none;
 }

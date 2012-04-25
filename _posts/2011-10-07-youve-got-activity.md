@@ -3,10 +3,8 @@ published: true
 title: You've got activity!
 body_class: post
 layout: post
+summary: Browser app tabs indicate activity by changing the page title. There should be a standardized API to control that indicator.
 ---
-
-
-
 
 If you use app tabs (or pinned tabs) in Firefox, Chrome, or Opera (I don't know if IE offers this feature), you're used to noticing the little highlight that indicates that the content on an app tab has changed. The de facto standard for triggering the highlight is to do it when the tab's document title has updated, and most web apps respect this and update their title to indicate how many new items there are for you to view.
 

@@ -3,10 +3,8 @@ published: true
 title: Spelling counts
 body_class: post
 layout: post
+summary: Poor spelling and grammar indicates lack of attention to detail. Whether it's in code or on a professional website, this conveys a lack of care.
 ---
-
-
-
 
 Details matter. When you put something on the web (or on paper), even seemingly minor spelling and grammar mistakes will affect how visitors and users perceive both you and your creation.
 

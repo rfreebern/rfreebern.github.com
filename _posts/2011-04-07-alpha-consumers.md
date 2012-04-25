@@ -3,10 +3,8 @@ published: true
 title: Alpha Consumers
 body_class: post
 layout: post
+summary: Comparing mobile OS market shares purely by size misses out on the relative financial value of those market shares.
 ---
-
-
-
 
 In an early episode of Aaron Sorkin's "Studio 60 on the Sunset Strip," the network president explains the value of getting written up in *Vanity Fair*:
 

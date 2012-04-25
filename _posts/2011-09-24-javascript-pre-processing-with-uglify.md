@@ -3,10 +3,8 @@ published: true
 title: JavaScript pre-processing with Uglify
 body_class: post
 layout: post
+summary: Uglify JS automatically strips blocks that are never evaluated. You can take advantage of this to remove debug statements when minifying your javascript.
 ---
-
-
-
 
 My JavaScript is full of debugging statements. `console.log()` all over the place, dumping loop indexes, JSON strings, AJAX responses, etc. When I deploy code, I obviously don't want all my debugging information showing up on every visitor's console. It's unnecessary, unprofessional, and makes the code unnecessarily large. So, I painstakingly remove all these helpful bits of code before deploying, but that's annoying, and if the debugging code was potentially useful in the future, I would just have to add it later.
 
