@@ -1,6 +1,6 @@
 --- 
 published: true
-title: Near-Future Anachronism -- Phone Numbers
+title: Near-Future Anachronism&#58; Phone Numbers
 layout: post
 body_class: post
 summary: Phone numbers are an inefficient, unnecessary throwback to the pre-Internet age. They should be eliminated and replaced with standard internet addressing.
