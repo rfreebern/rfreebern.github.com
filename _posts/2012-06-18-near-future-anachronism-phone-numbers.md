@@ -22,7 +22,7 @@ Imagine: instead of meeting someone and typing a string of 10 digits into your p
 
 It's far easier to remember and communicate a straightforward _.phone_ domain name than an arbitrary string of digits. Introducing a system like this would remove a common frustration and introduce all sorts of possibilities for simplifying and improving communication, which is exactly the sort of thing at which computers excel.
 
-**Update:** [@vitor_io][4] pointed out the fact that a **.tel*** gTLD exists for a similar purpose. Looking into that reveals [E.164 Number Mapping (ENUM)][5], which is a working implementation of this very idea that hasn't reached widespread adoption yet.
+**Update:** [@vitor_io][4] pointed out the fact that a **.tel** gTLD exists for a similar purpose. Looking into that reveals [E.164 Number Mapping (ENUM)][5], which is a working implementation of this very idea that hasn't reached widespread adoption yet.
 
  [1]: http://vitor.io "Vitorio Miliano, designer"
  [2]: tel:+1858VITORIO "Vitorio Miliano, designer"
