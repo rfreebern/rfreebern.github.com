@@ -11,6 +11,7 @@ body_class: default
         </p>
         <dl>
             {% for post in site.posts %}
+                {% unless post.type == "side" %}
             <dt class="vevent">
                 <span class="post-date dtstart" title="{{ post.date | date: "%y-%m-%d" }}">{{ post.date | date: "%d %b %Y" }}</span>
                 <a class="summary" href="{{ post.url }}">{{ post.title }}</a>
@@ -18,5 +19,16 @@ body_class: default
             <dd>
                 {{ post.summary }}
             </dd>
+                {% endunless %}
             {% endfor %}
         </dl>
+        <ul>
+            {% for post in site.posts %}
+                {% if post.type == "side" %}
+            <li class="vevent">
+                <span class="post-date dtstart" title="{{ post.date | date: "%y-%m-%d" }}">{{ post.date | date: "%d %b %Y" }}</span>
+                <a class="summary" href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+                {% endif %}
+            {% endfor %}
+        </ul>

@@ -2,7 +2,7 @@ body {
     background: url(/assets/img/subtle_freckles.png);
     font-family: 'Lato', sans-serif;
     margin: 0;
-    padding: 50px 25%;
+    padding: 50px 20%;
 }
 h1, h2 {
     margin: 0;
@@ -37,25 +37,34 @@ body.post img {
     max-width: 100%;
     height: auto;
 }
-dl {
+dl, ul {
     list-style: none;
     padding: 0;
-    width: 100%;
+    width: 66%;
+    float: left;
 }
-dt.vevent {
+.vevent {
     font-size: 110%;
+    float: left;
 }
 span.post-date {
-    position: absolute;
     color: #999;
+    display: block;
+    font-size: 70%;
 }
 a.summary, dd {
     position: relative;
-    margin-left: 20%;
+    clear: left;
 }
 dd {
     font-size: 90%;
     margin-bottom: 1em;
+}
+ul {
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+    font-size: 75%;
 }
 p.tldr {
     font-style: italic;
@@ -74,6 +83,8 @@ a:hover {
 }
 footer {
     margin-top: 2em;
+    display: block;
+    clear: left;
 }
 .license {
     text-align: right;
