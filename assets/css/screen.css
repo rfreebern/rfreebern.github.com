@@ -66,6 +66,11 @@ ul {
     float: left;
     font-size: 75%;
 }
+body.post ul {
+    width: 100%;
+    font-size: 90%;
+    list-style: disc;
+}
 p.tldr {
     font-style: italic;
     color: #666;
