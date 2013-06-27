@@ -24,11 +24,11 @@ To ensure that the search terms were analyzed as a single string, I set up a cus
 
 ## Our Solution: A compromise between space and complexity
 
-The solution to both the disk usage problem and the too-long search term problem was to compromise by using more complex queries (which in turn uses slightly more CPU to process). The idea is basically to create ngrams up to a given length (I chose 8 characters) and then, when given a search with more than 8 characters, turn it into a boolean AND query looking for every distinct 8-character substring in that string. For example, if a user searched for "large yard" (a 10-character string), the search would be:
+The solution to both the disk usage problem and the too-long search term problem was to compromise by using more complex queries (which in turn uses slightly more CPU to process) and shorter ngrams. The idea is basically to create ngrams up to a given length (I chose 8 characters) and then, when given a search with more than 8 characters, turn it into a boolean AND query looking for every distinct 8-character substring in that string. For example, if a user searched for "large yard" (a 10-character string), the search would be:
 
     "large ya" AND "arge yar" AND "rge yard"
 
-While theoretically this could result in incorrect matches (if a document contains those 8-character substrings in different locations, e.g. "*large ya*k b*arge yar*n fo*rge yard*"), in practice we haven't seen significant false positives to give us concern.
+While theoretically this could result in incorrect matches (if a document contains those 8-character substrings in different locations, e.g. "*large ya*k b*arge yar*n fo*rge yard*"), in practice we haven't seen significant false positives to give us concern. Indexing ngrams of 3 to 8 characters caused our disk usage to approximately double (vs. no ngram indexing).
 
 ## How to do it
 
