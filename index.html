@@ -1,34 +1,8 @@
----
-layout: default
-title: I ? the web.
-body_class: default
----
-        <h1>I <span class="qmark">?</span> the web.</h1>
-        <h2>I'm Ryan Freebern, a web developer in Vermont.</h2>
-        <p>
-            This is my weblog. I write about open source, the open web, my
-            projects, and my life.
-        </p>
-        <dl>
-            {% for post in site.posts %}
-                {% unless post.type == "side" %}
-            <dt class="vevent">
-                <span class="post-date dtstart" title="{{ post.date | date: "%y-%m-%d" }}">{{ post.date | date: "%d %b %Y" }}</span>
-                <a class="summary" href="{{ post.url }}">{{ post.title }}</a>
-            </dt>
-            <dd>
-                {{ post.summary }}
-            </dd>
-                {% endunless %}
-            {% endfor %}
-        </dl>
-        <ul>
-            {% for post in site.posts %}
-                {% if post.type == "side" %}
-            <li class="vevent">
-                <span class="post-date dtstart" title="{{ post.date | date: "%y-%m-%d" }}">{{ post.date | date: "%d %b %Y" }}</span>
-                <a class="summary" href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+<!doctype html>
+<html>
+<head>
+    <title>rfreebern</title>
+</head>
+<body>
+</body>
+</html>
